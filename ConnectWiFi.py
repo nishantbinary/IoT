@@ -1,6 +1,7 @@
 import network
 import time
 count = 0
+#Do not forget to edit this part so the device can connect to your wifi
 ssid = "your ssid"
 password = "your pass"
 station = network.WLAN(network.STA_IF)
